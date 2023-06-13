@@ -85,7 +85,17 @@ main{
     position: relative;
 }
 
+.bem-vindo-head{
+    font-size: 45px;
+}
 
+.pagina-familia-guerra{
+    font-size: 30px;
+}
+
+.conhecaservico {
+    font-size: auto;
+}
 
 .carousel-indicators {
     bottom: 10px;
@@ -215,6 +225,14 @@ footer{
 
 @media (min-width: 360px) {
 
+    .bem-vindo-head{
+        font-size: 29px;
+    }
+    
+    .pagina-familia-guerra{
+        font-size: 12px;
+    }
+
     .logo img{
         width: 170px;
     }
@@ -264,6 +282,10 @@ footer{
         margin: 30px;
         font-size: 19px;
     }
+
+    .conhecaservico {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 390px) {
@@ -279,6 +301,14 @@ footer{
 }
 
 @media (min-width: 768px) {
+
+    .bem-vindo-head{
+        font-size: 45px;
+    }
+    
+    .pagina-familia-guerra{
+        font-size: 30px;
+    }
 
     .navigation{
         display: flex;
@@ -316,6 +346,10 @@ footer{
     .textoabout{
         margin: 50px;
         font-size: 19px;
+    }
+
+    .conhecaservico {
+        font-size: auto;
     }
 }
 
