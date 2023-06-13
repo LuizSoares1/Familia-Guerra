@@ -293,6 +293,18 @@ footer{
         padding: 30px 60px;
     }    
 
+    .empreendimento h1{
+        font-size: 1.4em;
+    }
+
+    .empreendimento img {
+        width: 180px;
+    }
+
+    .empreendimento h2{
+        font-size: 15px;
+    }
+
     .start-50 {
         left: 40% !important;
     }
