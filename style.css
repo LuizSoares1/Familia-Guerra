@@ -247,6 +247,10 @@ footer{
         font-size: 10px;
     }
 
+    .empreendimento img {
+        width: 125  px;
+    }
+
 
     .start-50{
         left: 42% !important;
@@ -256,7 +260,10 @@ footer{
         top: 47% !important;
     }
 
-    
+    .textoabout{
+        margin: 30px;
+        font-size: 19px;
+    }
 }
 
 @media (min-width: 390px) {
@@ -294,6 +301,10 @@ footer{
         top: 50% !important;
     }
 
+    .textoabout{
+        margin: 50px;
+        font-size: 19px;
+    }
 }
 
 @media (min-width: 1024px) {
