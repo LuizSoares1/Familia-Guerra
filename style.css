@@ -31,10 +31,6 @@ header{
     z-index: 99;
 }
 
-
-
-
-
 .imagem-banner {
     background-color: #2d2c2c;
     display: flex;
@@ -59,6 +55,10 @@ header{
     opacity: 100%;
 }
 
+.navigation a:hover {
+    color: white;
+}
+
 .navigation a::after {
     content: '';
     position: absolute;
@@ -76,33 +76,6 @@ header{
 .navigation a:hover::after {
     transform-origin: left;
     transform: scaleX(1);
-}
-
-@media (min-width: 390px) {
-
-    header a {
-        width: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .navigation {
-        display: none;
-    }
-
-
-}
-
-@media (min-width: 768px) {
-
-    .navigation{
-        display: flex;
-    }
-    .navigation a {
-        font-size: 1.2em;
-    }
-
 }
 
 /* //////////////////////////////////////////main */
@@ -124,18 +97,6 @@ main{
 
 .start-50{
     left: 28% !important;
-}
-
-@media (min-width: 411px) {
-
-    .start-50{
-        left: 42% !important;
-    }
-
-    .top-50{
-        top: 47% !important;
-    }
-    
 }
 
 .image-container {
@@ -209,49 +170,6 @@ main{
     border-color: rgb(15, 145, 134);
 }
 
-@media (min-width: 360px) {
-
-    .empreendimento li {
-        flex: 0 0 100%; /* Os cards ocupam a largura total em dispositivos móveis */
-        max-width: 100%; /* Define a largura máxima para evitar que os cards se estiquem */
-        padding: 30px 70px;
-    }
-    
-}
-
-@media (min-width: 768px) {
-    .empreendimento li {
-        flex: 0 0 47%; /* Os cards ocupam a largura total em dispositivos móveis */
-        max-width: 100%; /* Define a largura máxima para evitar que os cards se estiquem */
-        padding: 30px 60px;
-    }    
-
-    .start-50 {
-        left: 40% !important;
-    }
-
-    .top-50 {
-        top: 50% !important;
-    }
-}
-
-@media (min-width: 1024px) {
-    .empreendimento li {
-        flex: 0 0 48%; /* Os cards ocupam a largura total em dispositivos móveis */
-        max-width: 100%; /* Define a largura máxima para evitar que os cards se estiquem */
-        padding: 30px 60px;
-    }
-}
-
-@media (min-width: 1440px) {
-    .empreendimento li {
-        flex: 0 0 48%; /* Os cards ocupam a largura total em dispositivos móveis */
-        max-width: 100%; /* Define a largura máxima para evitar que os cards se estiquem */
-        padding: 30px 60px;
-    }
-}
-
-
 .btnhover:hover {
     color: #000000;
 }
@@ -292,4 +210,76 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+
+@media (min-width: 360px) {
+
+
+
+    header a {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .empreendimento li {
+        flex: 0 0 100%; /* Os cards ocupam a largura total em dispositivos móveis */
+        max-width: 100%; /* Define a largura máxima para evitar que os cards se estiquem */
+        padding: 30px 70px;
+    }
+
+    .start-50{
+        left: 42% !important;
+    }
+
+    .top-50{
+        top: 47% !important;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .navigation{
+        display: flex;
+    }
+    .navigation a {
+        font-size: 1.2em;
+    }
+
+    .empreendimento li {
+        flex: 0 0 47%; /* Os cards ocupam a largura total em dispositivos móveis */
+        max-width: 100%; /* Define a largura máxima para evitar que os cards se estiquem */
+        padding: 30px 60px;
+    }    
+
+    .start-50 {
+        left: 40% !important;
+    }
+
+    .top-50 {
+        top: 50% !important;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .empreendimento li {
+        flex: 0 0 48%; /* Os cards ocupam a largura total em dispositivos móveis */
+        max-width: 100%; /* Define a largura máxima para evitar que os cards se estiquem */
+        padding: 30px 60px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .empreendimento li {
+        flex: 0 0 48%; /* Os cards ocupam a largura total em dispositivos móveis */
+        max-width: 100%; /* Define a largura máxima para evitar que os cards se estiquem */
+        padding: 30px 60px;
+    }
 }
