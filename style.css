@@ -218,8 +218,18 @@ footer{
 .comentarios{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    padding: 30px;
+}
+
+.comentarios input {
+    background-color: #000000;
+    color: #fff;
+}
+
+.comentarios textarea {
+    background-color: #000000;
+    color: #fff;
 }
 
 
@@ -280,7 +290,7 @@ footer{
 
     .textoabout{
         margin: 30px;
-        font-size: 19px;
+        font-size: 13px;
     }
 
     .conhecaservico {
@@ -358,6 +368,13 @@ footer{
         flex: 0 0 48%; /* Os cards ocupam a largura total em dispositivos móveis */
         max-width: 100%; /* Define a largura máxima para evitar que os cards se estiquem */
         padding: 30px 60px;
+    }
+
+    .comentarios{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 50px;
     }
 }
 

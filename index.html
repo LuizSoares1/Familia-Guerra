@@ -20,7 +20,7 @@
             <img src="/logos/logo família guerra BRANCA.png"
                 alt="Familia-Guerra-Home"></a>
         <nav class="navigation">
-            <a href="#nossoservico">Nossos Serviços</a>
+            <a href="#nossosservios">Serviços</a>
             <a href="#sobre-nos">Sobre Nós</a>
         </nav>
     </header>
@@ -34,7 +34,7 @@
                 <div class="filter hdpe"
                     style="display: flex; position: relative; user-select: none; overflow-x: hidden;">
                     <img src="https://wallpapercave.com/wp/wp2757880.gif" alt="bg" class="img-responsive"
-                        style="opacity: 60%; background-repeat: no-repeat; width: 100%; height: 800px; user-select: none; background-size: 100% 100%;">
+                        style="opacity: 60%; background-repeat: no-repeat; width: 100%; height: 650px; user-select: none; background-size: 100% 100%;">
                     <div class="text-overlay position-absolute top-50 start-50 translate-middle">
                         <h1 style="justify-content:center; display:flex;" class="bem-vindo-head">BEM VINDOS</h1>
                         <h2 style="display: flex; justify-content:center;" class="pagina-familia-guerra">A Página da Família Guerra!</h2>
@@ -44,7 +44,7 @@
                             </p>
                             <button class="btn btn-outline-info"
                                 style="padding: 5px 10px; font-size:20px; border-radius:80px; border: 3px solid white"><a
-                                class="btnhover" href="#"
+                                class="btnhover" href="#faleconosco"
                                 style="text-decoration: none; color:aliceblue;">CONTATE-NOS</a>
                             </button>
                         </div>
@@ -57,7 +57,7 @@
 
         <!-- SLIDES -->
 
-        <div class="nossos-slides" style="opacity: 80%;">
+        <div class="nossos-slides" style="opacity: 80%;" id="nossosservios">
             <div style="background-color: black;">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -166,36 +166,39 @@
             </iframe>
         </div>
         <br>
+        <hr>
 
-
+        </div>
+        <br id="faleconosco">
+        <div class="comentarios">
+            <h1 class="d-flex justify-content-center">FALE CONOSCO</h1>
+            <br>
+            <div>
+                <label for="floatingInput">Nome</label>
+                <input type="text" class="form-control" id="floatingInput" placeholder="Nome">
+                <label for="floatingInput">Sobrenome</label>
+                <input type="text" class="form-control" id="floatingInput" placeholder="Sobrenome">
+                <label for="floatingInput">Email</label>
+                <input type="text" class="form-control" id="floatingInput" placeholder="email@domínio">
+                <br>
+                <label for="floatingTextarea2">Comentários</label>
+                <textarea class="form-control" placeholder="Deixe seu comentário" id="floatingTextarea2" style="height: 100px"></textarea>
+                <br>
+                <button type="button" class="btn btn-primary btn-lg btn-info">Enviar</button>
+            </div>                
         </div>
         <br>
     </main>
-    <!-- <div class="comentarios">
-        <h1>Fale conosco</h1>
-        <div>
-            <label for="floatingInput">Nome</label>
-            <input type="text" class="form-control" id="floatingInput" placeholder="Nome">
-            <label for="floatingInput">Sobrenome</label>
-            <input type="text" class="form-control" id="floatingInput" placeholder="Sobrenome">
-            <label for="floatingInput">Email</label>
-            <input type="text" class="form-control" id="floatingInput" placeholder="email@domínio">
-            <label for="floatingTextarea2">Comentários</label>
-            <textarea class="form-control" placeholder="Deixe seu comentário" id="floatingTextarea2" style="height: 100px"></textarea>
-            <br>
-            <button type="button" class="btn btn-primary btn-lg">Enviar</button>
-        </div>                
-    </div> -->
+
 
 
     <footer style="user-select:none;">
-        <img style="width: 220px; pointer-events:none;" src="/logos/logo família guerra BRANCA.png"
-            alt="familia guerra">
         <p>2023 © Família Guerra</p>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.js"
         integrity="sha512-jrPfgwWrYtTfEO47P2AJWZqIpy3bLH6eyqrPWbaYvigUW1i0MxLEuM16JOm+IS6SAhFREKHfVn4cBA4NQ0Ntxg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
 </body>
 </body>
 
